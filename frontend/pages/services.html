@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIS Services - Know Your BIS</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/dark-mode.css">
+</head>
+<body>
+
+    <div class="gov-top-bar"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="/" class="brand-logo">
+                🏛️ Know Your BIS <span class="brand-badge">AI platform</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/assistant">AI Assistant</a></li>
+                <li><a href="/recommend">Know Your BIS</a></li>
+                <li><a href="/services" class="active">BIS Services</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div style="margin-bottom: 2rem; text-align: center;">
+            <h1 style="font-size: 2rem; color: var(--primary-color); margin-bottom: 0.5rem;">🏛️ Bureau of Indian Standards Schemes & Services</h1>
+            <p style="color: var(--text-muted); max-width: 750px; margin: 0 auto;">Comprehensive guide to official BIS certification schemes, gold hallmarking, laboratory networks, compulsory registration, and training institutes.</p>
+        </div>
+
+        <div id="services-grid" class="grid-2">
+            <!-- Services cards dynamically populated by services.js -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>© 2026 Know Your BIS Platform. Official Service Catalog & Application Links.</p>
+        </div>
+    </footer>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/services.js"></script>
+</body>
+</html>

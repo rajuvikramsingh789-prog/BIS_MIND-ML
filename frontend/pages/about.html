@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & RAG Architecture - Know Your BIS</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/dark-mode.css">
+</head>
+<body>
+
+    <div class="gov-top-bar"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="/" class="brand-logo">
+                🏛️ Know Your BIS <span class="brand-badge">AI platform</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/assistant">AI Assistant</a></li>
+                <li><a href="/recommend">Know Your BIS</a></li>
+                <li><a href="/services">BIS Services</a></li>
+                <li><a href="/about" class="active">About</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+        </div>
+    </header>
+
+    <main class="container" style="max-width: 900px;">
+        <div style="margin-bottom: 2.5rem; text-align: center;">
+            <h1 style="font-size: 2.2rem; color: var(--primary-color); margin-bottom: 0.5rem;">About Know Your BIS</h1>
+            <p style="color: var(--text-muted); font-size: 1.1rem;">AI-Powered Guide to Indian Standards, BIS Certification, and Regulatory Compliance</p>
+        </div>
+
+        <!-- Official Disclaimer Alert -->
+        <div class="card" style="border-left: 6px solid #f59e0b; background-color: #fffbeb; margin-bottom: 2.5rem;">
+            <div style="display: flex; gap: 0.75rem; align-items: flex-start;">
+                <span style="font-size: 1.5rem;">⚠️</span>
+                <div>
+                    <h3 style="color: #b45309; margin-bottom: 0.25rem;">Official Compliance Disclaimer</h3>
+                    <p style="color: #92400e; font-size: 0.95rem; font-weight: 500;">
+                        "This AI is an informational assistant. Users should verify regulatory and compliance requirements using the latest official BIS and Government sources."
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 1: What is BIS -->
+        <section class="card" style="margin-bottom: 2rem;">
+            <h2 style="color: var(--primary-color); font-size: 1.4rem; margin-bottom: 0.75rem;">🏛️ What is the Bureau of Indian Standards (BIS)?</h2>
+            <p style="margin-bottom: 1rem;">
+                The <strong>Bureau of Indian Standards (BIS)</strong> is the National Standards Body of India established under the BIS Act 2016. BIS is responsible for the harmonious development of standardization, marking, and quality certification of goods across India.
+            </p>
+            <p>
+                BIS operates major national initiatives including the flagship <strong>ISI Mark</strong> (Scheme I), <strong>Compulsory Registration Scheme (CRS)</strong> for electronics, <strong>Hallmarking of Gold and Silver Jewellery</strong> (IS 1417 / IS 15820), and manages the National Laboratory Recognition Scheme (LRS).
+            </p>
+        </section>
+
+        <!-- Section 2: Purpose of this AI -->
+        <section class="card" style="margin-bottom: 2rem;">
+            <h2 style="color: var(--primary-color); font-size: 1.4rem; margin-bottom: 0.75rem;">💡 Purpose of Know Your BIS</h2>
+            <p style="margin-bottom: 1rem;">
+                Navigating thousands of Indian Standards, Gazette Quality Control Orders (QCOs), testing protocols, and certification portals can be challenging for manufacturers, importers, small businesses, and consumers.
+            </p>
+            <p>
+                <strong>Know Your BIS</strong> bridges this gap by providing an instant, natural-language AI assistant and product-to-standard recommendation engine grounded exclusively in official BIS documents.
+            </p>
+        </section>
+
+        <!-- Section 3: How RAG Architecture Works -->
+        <section class="card" style="margin-bottom: 2rem;">
+            <h2 style="color: var(--primary-color); font-size: 1.4rem; margin-bottom: 1rem;">⚙️ How the Retrieval Augmented Generation (RAG) Pipeline Works</h2>
+            
+            <div style="background: rgba(13, 59, 102, 0.03); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-color); font-family: monospace; font-size: 0.9rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                User Question<br>
+                &nbsp;&nbsp;↓<br>
+                1. Intent Detection (Product Rec / QCO Check / Hallmarking / Lab)<br>
+                &nbsp;&nbsp;↓<br>
+                2. Entity Extraction (IS Numbers, Product Keywords, Clauses)<br>
+                &nbsp;&nbsp;↓<br>
+                3. Hybrid Keyword Search (BM25) + Semantic Vector Search (Cosine Similarity)<br>
+                &nbsp;&nbsp;↓<br>
+                4. Reranking & Evidence Filtering (Top Grounded Chunks)<br>
+                &nbsp;&nbsp;↓<br>
+                5. LLM Grounded Generation (Google Gemini / Grounded Synthesis)<br>
+                &nbsp;&nbsp;↓<br>
+                6. Citation Validation & Source Verification<br>
+                &nbsp;&nbsp;↓<br>
+                Final Answer + Confidence Meter & Source Cards
+            </div>
+
+            <h3 style="font-size: 1.1rem; color: var(--primary-color); margin-bottom: 0.5rem;">Citations & Zero-Hallucination Integrity</h3>
+            <p style="font-size: 0.95rem; color: var(--text-main);">
+                Unlike standard conversational models, our backend RAG engine enforces a <strong>Zero-Hallucination Mandate</strong>. Every answer is generated by passing retrieved official BIS document chunks directly into the LLM system prompt. Standard numbers, clause titles, testing limits, and QCO notification dates are strictly verified against the underlying SQLite database before presentation.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>© 2026 Know Your BIS Platform. RAG Architecture & Compliance Verification Project.</p>
+        </div>
+    </footer>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

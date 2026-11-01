@@ -1,0 +1,271 @@
+[
+  {
+    "id": "is-1786",
+    "isNumber": "IS 1786",
+    "year": 2008,
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification",
+    "category": "Civil & Structural Steel",
+    "department": "Civil Engineering Department",
+    "isMandatory": true,
+    "qcoOrder": "Steel and Steel Products (Quality Control) Order, 2020",
+    "qcoNotificationDate": "2020-07-22",
+    "enforcingMinistry": "Ministry of Steel, Govt. of India",
+    "scope": "Covers requirements of high strength deformed steel bars (TMT bars) and wires for use as reinforcement in concrete in grades Fe 415, Fe 415D, Fe 500, Fe 500D, Fe 500S, Fe 550, Fe 550D, Fe 600.",
+    "testingRequirements": [
+      "0.2 percent proof stress / yield stress determination",
+      "Tensile strength test and TS/YS ratio calculation",
+      "Elongation at fracture percentage",
+      "Bend and Rebend test",
+      "Chemical composition test (Carbon, Sulphur, Phosphorus, Carbon Equivalent)",
+      "Mass per metre run tolerance check"
+    ],
+    "clauses": [
+      { "clauseNo": "4.1", "title": "Chemical Composition", "text": "Maximum limits: Carbon 0.30% max for Fe 415, Sulphur 0.060% max, Phosphorus 0.060% max, S+P 0.110% max." },
+      { "clauseNo": "8.1", "title": "Mechanical Properties", "text": "For Fe 500D: Minimum Yield Stress 500 N/mm², Minimum Tensile Strength 565 N/mm², Minimum Elongation 16.0%." },
+      { "clauseNo": "9.2", "title": "Rebend Test", "text": "Mandatory 135 degree bend around mandrel followed by aging in 100°C boiling water for 30 minutes and unbending to 157.5 degrees without fracture." }
+    ],
+    "scheme": "Scheme I - Product Certification Scheme (ISI Mark)",
+    "officialUrl": "https://www.bis.gov.in/product-certification/schemes-offered-by-bis/",
+    "labCapabilities": ["Central Laboratory Sahibabad", "Western Regional Office Lab Mumbai", "Southern Regional Office Lab Chennai"]
+  },
+  {
+    "id": "is-14543",
+    "isNumber": "IS 14543",
+    "year": 2004,
+    "title": "Packaged Drinking Water (Other than Packaged Natural Mineral Water) - Specification",
+    "category": "Food & Agriculture",
+    "department": "Food and Agriculture Department",
+    "isMandatory": true,
+    "qcoOrder": "Food Safety and Standards (Packaging and Labelling) Regulations & FSSAI/BIS Joint Mandate",
+    "qcoNotificationDate": "2001-03-29",
+    "enforcingMinistry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "scope": "Specifies physical, chemical, microbiological, toxic element, pesticide residue, and radio-isotope requirements for packaged drinking water sold in sealed bottles or containers.",
+    "testingRequirements": [
+      "Microbiological testing (Escherichia coli, Coliforms, Salmonella, Pseudomonas aeruginosa)",
+      "Pesticide residue testing (Individual pesticides max 0.0001 mg/L, Total pesticides max 0.0005 mg/L)",
+      "Toxic metals analysis (Lead, Arsenic, Cadmium, Mercury, Chromium)",
+      "Organoleptic parameters (pH 6.5-8.5, TDS max 500 mg/L, Turbidity max 2 NTU)",
+      "Shelf-life stability test"
+    ],
+    "clauses": [
+      { "clauseNo": "5.1", "title": "Hygiene and Processing", "text": "Water shall be derived from suitable sources and subjected to treatment processes like decantation, filtration, aeration, ozonation, UV treatment, and reverse osmosis." },
+      { "clauseNo": "6.2", "title": "Pesticide Residues", "text": "Pesticide residues shall be tested as per IS 14543 Annex D and Annex E using Gas Chromatography (GC-MS) or LC-MS/MS." },
+      { "clauseNo": "7.1", "title": "Packaging", "text": "Shall be packed in food grade containers conforming to IS 15410 or IS 10146 with tamper-evident seals bearing the ISI Mark." }
+    ],
+    "scheme": "Scheme I - Mandatory ISI Certification Scheme",
+    "officialUrl": "https://www.bis.gov.in/index.php/food-and-agriculture/",
+    "labCapabilities": ["Central Laboratory Sahibabad", "Northern Regional Office Lab Mohali", "Eastern Regional Office Lab Kolkata"]
+  },
+  {
+    "id": "is-10500",
+    "isNumber": "IS 10500",
+    "year": 2012,
+    "title": "Drinking Water - Specification",
+    "category": "Water & Sanitation",
+    "department": "Chemical Department",
+    "isMandatory": false,
+    "qcoOrder": "Recommended guideline for public piped water supplies; mandatory when specified in municipal contracts.",
+    "qcoNotificationDate": "2012-05-01",
+    "enforcingMinistry": "Ministry of Jal Shakti / FSSAI",
+    "scope": "Prescribes requirements, essential parameters, and desirable limits for drinking water supplied through municipal networks or decentralized sources across India.",
+    "testingRequirements": [
+      "pH value (6.5 to 8.5)",
+      "Total Dissolved Solids (TDS: Acceptable limit 500 mg/l, Permissible limit 2000 mg/l)",
+      "Total Hardness as CaCO3 (Acceptable limit 200 mg/l, Permissible 600 mg/l)",
+      "Fluoride content (Acceptable limit 1.0 mg/l, Permissible limit 1.5 mg/l)",
+      "Bacteriological testing (E. coli nil in 100 ml)"
+    ],
+    "clauses": [
+      { "clauseNo": "4.1", "title": "Organoleptic and Physical Parameters", "text": "Color max 5 Hazen units, Odor agreeable, Turbidity max 1 NTU (permissible 5 NTU)." },
+      { "clauseNo": "4.2", "title": "General Parameters Concerning Substances Undesirable in Excessive Amounts", "text": "Nitrate max 45 mg/l, Sulphate max 200 mg/l (permissible 400 mg/l), Iron max 1.0 mg/l." }
+    ],
+    "scheme": "Voluntary Benchmark / Standard Guideline",
+    "officialUrl": "https://standardsbis.bsbedge.com/",
+    "labCapabilities": ["All BIS Recognized National Laboratories", "State Public Health Engineering Labs"]
+  },
+  {
+    "id": "is-15820",
+    "isNumber": "IS 15820",
+    "year": 2009,
+    "title": "General Requirements for Establishment and Operation of Assaying and Hallmarking Centres",
+    "category": "Jewellery & Precious Metals",
+    "department": "Metallurgical Engineering Department",
+    "isMandatory": true,
+    "qcoOrder": "Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020 (Amended 2021 & 2023)",
+    "qcoNotificationDate": "2020-01-15",
+    "enforcingMinistry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "scope": "Specifies general requirements for competence, quality management systems, equipment, and XRF/Fire Assaying testing procedures for BIS Hallmarking Centres.",
+    "testingRequirements": [
+      "X-ray Fluorescence (XRF) non-destructive screening",
+      "Fire Assay (Cupellation) destructive gold purity determination as per IS 1417",
+      "Laser marking of HUID (Hallmark Unique Identification) 6-digit alphanumeric code"
+    ],
+    "clauses": [
+      { "clauseNo": "6.1", "title": "Sampling and Reception", "text": "Jewellery received from registered jewelers must undergo strict log entry, weight verification to 0.01g precision, and non-destructive preliminary XRF testing." },
+      { "clauseNo": "8.3", "title": "Fire Assaying Procedure", "text": "Assaying shall follow cupellation technique in muffle furnace at 1100°C to achieve purity measurement accuracy down to parts per thousand (ppt)." }
+    ],
+    "scheme": "Hallmarking Scheme (IS 1417 for Gold, IS 2112 for Silver)",
+    "officialUrl": "https://www.bis.gov.in/hallmarking-2/",
+    "labCapabilities": ["BIS Recognized Assaying and Hallmarking Centres nationwide (over 1,400+ AHCs)"]
+  },
+  {
+    "id": "is-13252",
+    "isNumber": "IS 13252 (Part 1)",
+    "year": 2010,
+    "title": "Information Technology Equipment - Safety - General Requirements",
+    "category": "Electronics & IT",
+    "department": "Electronics and Information Technology Department",
+    "isMandatory": true,
+    "qcoOrder": "Compulsory Registration Scheme (CRS) Order by MeitY",
+    "qcoNotificationDate": "2012-10-03",
+    "enforcingMinistry": "Ministry of Electronics and Information Technology (MeitY)",
+    "scope": "Applicable to mains-powered or battery-powered information technology equipment, including microprocessors, laptops, servers, power adapters, and electronic data processing equipment.",
+    "testingRequirements": [
+      "Electric strength and insulation test (Hipot test)",
+      "Touch current and protective conductor current measurement",
+      "Temperature rise test under normal and fault conditions",
+      "Mechanical strength and drop test",
+      "Flammability test of plastic enclosures (V-0, V-1 grades)"
+    ],
+    "clauses": [
+      { "clauseNo": "1.5", "title": "Components Safety", "text": "Critical safety components such as power supplies, optocouplers, transformers, and fuses must independently comply with relevant Indian Standards or IEC standards." },
+      { "clauseNo": "2.1", "title": "Protection from Electric Shock", "text": "Equipment shall be so constructed that live parts are not accessible to test finger probes during operation." }
+    ],
+    "scheme": "Scheme II - Compulsory Registration Scheme (CRS / R-Number)",
+    "officialUrl": "https://www.crsbis.in/BIS/",
+    "labCapabilities": ["BIS Recognized IT Testing Labs", "SAMEER Chennai", "STQC Labs nationwide"]
+  },
+  {
+    "id": "is-694",
+    "isNumber": "IS 694",
+    "year": 2010,
+    "title": "Polyvinyl Chloride Insulated Unsheathed and Sheathed Cables/Cords with Rigid and Flexible Conductor, for Working Voltages Up to and Including 1100 V",
+    "category": "Electrical Engineering",
+    "department": "Electrotechnical Department",
+    "isMandatory": true,
+    "qcoOrder": "Electrical Wires, Cables, Appliances and Protection Devices (Quality Control) Order, 2023",
+    "qcoNotificationDate": "2023-05-10",
+    "enforcingMinistry": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+    "scope": "Covers single-core and multi-core PVC insulated electrical cables used for domestic wiring, industrial power supply, lighting, and electrical appliances up to 1100 Volts.",
+    "testingRequirements": [
+      "Conductor resistance test (ohms/km at 20°C)",
+      "High voltage insulation test (3 kV AC for 5 minutes)",
+      "Insulation resistance test at 20°C and 70°C",
+      "Tensile strength and elongation test of PVC insulation",
+      "Flame retardancy / Flammability test (IEC 60332-1)",
+      "Thermal stability test"
+    ],
+    "clauses": [
+      { "clauseNo": "6.1", "title": "Conductors", "text": "Conductors shall consist of annealed high conductivity copper (plain or tinned) or aluminum as specified in IS 8130." },
+      { "clauseNo": "9.1", "title": "Marking Requirements", "text": "The cable shall be embossed or printed with Manufacturer's Name, IS 694, Voltage Grade, and ISI Mark every 1 metre along the sheath." }
+    ],
+    "scheme": "Scheme I - ISI Mark Certification Scheme",
+    "officialUrl": "https://www.bis.gov.in/product-certification/",
+    "labCapabilities": ["Central Laboratory Sahibabad", "CPRI Bengaluru", "ERDA Vadodara"]
+  },
+  {
+    "id": "is-302",
+    "isNumber": "IS 302 (Part 1)",
+    "year": 2024,
+    "title": "Safety of Household and Similar Electrical Appliances - General Requirements",
+    "category": "Household Electrical Products",
+    "department": "Electrotechnical Department",
+    "isMandatory": true,
+    "qcoOrder": "Electrical Appliances (Quality Control) Order, 2023",
+    "qcoNotificationDate": "2023-09-05",
+    "enforcingMinistry": "DPIIT & Ministry of Heavy Industries",
+    "scope": "Applies to safety of electrical appliances for household and similar purposes, such as electric irons, water heaters, room heaters, mixers, food processors, and microwave ovens.",
+    "testingRequirements": [
+      "Protection against access to live parts",
+      "Power input and current verification",
+      "Heating test and thermal limit switch verification",
+      "Leakage current and electric strength at operating temperature",
+      "Abnormal operation and locked-rotor testing",
+      "Moisture resistance and IP protection rating"
+    ],
+    "clauses": [
+      { "clauseNo": "8.1", "title": "Protection Against Shock", "text": "Appliance shall be constructed so that its enclosure provides adequate protection against accidental contact with live parts." },
+      { "clauseNo": "19.1", "title": "Abnormal Operation", "text": "Appliance must not emit flames, molten metal, or poisonous gas when operated under simulated failure conditions like blocked thermostat." }
+    ],
+    "scheme": "Scheme I - ISI Mark Certification Scheme",
+    "officialUrl": "https://www.bis.gov.in/",
+    "labCapabilities": ["Central Laboratory Sahibabad", "Regional Labs Delhi/Mumbai/Kolkata/Chennai"]
+  },
+  {
+    "id": "is-16333",
+    "isNumber": "IS 16333 (Part 3)",
+    "year": 2017,
+    "title": "Mobile Phone Handsets - Indian Language Support for Mobile Phone Handsets - Specific Requirements",
+    "category": "Telecom & Mobile Technology",
+    "department": "Electronics and IT Department",
+    "isMandatory": true,
+    "qcoOrder": "Mandatory Mobile Phone Language Support Order by MeitY",
+    "qcoNotificationDate": "2017-10-01",
+    "enforcingMinistry": "MeitY / Ministry of Communications",
+    "scope": "Specifies mandatory requirements for message typing, display of text, and keyboard entry for 22 official Indian languages on all mobile handsets sold in India.",
+    "testingRequirements": [
+      "Font rendering verification for Devanagari, Bengali, Tamil, Telugu, Gujarati, Gurmukhi, Kannada, Malayalam, etc.",
+      "Input text keyboard layout and character entry test",
+      "Emergency SOS button triggering test (triple press 112 / long press 5)"
+    ],
+    "clauses": [
+      { "clauseNo": "4.2", "title": "Language Display Capability", "text": "Mobile handsets must display incoming and outgoing SMS and system menus in all 22 official scheduled Indian languages." },
+      { "clauseNo": "5.1", "title": "Text Input Capability", "text": "Handsets with physical or virtual keyboards must support input in Hindi, English, and at least one regional language based on region." }
+    ],
+    "scheme": "Scheme II - CRS Compulsory Registration Scheme",
+    "officialUrl": "https://www.crsbis.in/BIS/",
+    "labCapabilities": ["STQC Labs", "Telecommunication Engineering Centre (TEC) Labs"]
+  },
+  {
+    "id": "is-9873",
+    "isNumber": "IS 9873 (Part 1)",
+    "year": 2019,
+    "title": "Safety of Toys - Safety Aspects Related to Mechanical and Physical Properties",
+    "category": "Consumer & Child Safety",
+    "department": "Mechanical Engineering Department",
+    "isMandatory": true,
+    "qcoOrder": "Toys (Quality Control) Order, 2020",
+    "qcoNotificationDate": "2020-02-25",
+    "enforcingMinistry": "DPIIT, Ministry of Commerce and Industry",
+    "scope": "Applies to all toys intended for use by children under 14 years of age. Covers physical hazards like sharp edges, small parts choke hazards, heavy metal migration, and phthalates.",
+    "testingRequirements": [
+      "Drop test, impact test, and torque test for small part detachment",
+      "Sharp edge and sharp point inspection",
+      "Heavy element migration testing (Antimony, Arsenic, Barium, Cadmium, Chromium, Lead, Mercury, Selenium)",
+      "Phthalate content testing (DBP, BBP, DEHP, DINP, DNOP, DIDP max 0.1%)"
+    ],
+    "clauses": [
+      { "clauseNo": "4.1", "title": "Small Parts Hazard", "text": "Toys intended for children under 36 months must not fit entirely into small parts test cylinder to prevent choking." },
+      { "clauseNo": "4.7.1", "title": "Accessible Edges", "text": "Accessible glass or metal edges on toys shall not present an unreasonable risk of cut injury during normal use." }
+    ],
+    "scheme": "Scheme I - ISI Mark (Type Testing + Factory Inspection)",
+    "officialUrl": "https://www.bis.gov.in/product-certification/toys-qco/",
+    "labCapabilities": ["Central Laboratory Sahibabad", "NABL Accredited Toy Testing Labs"]
+  },
+  {
+    "id": "is-2062",
+    "isNumber": "IS 2062",
+    "year": 2011,
+    "title": "Hot Rolled Medium and High Tensile Structural Steel - Specification",
+    "category": "Metallurgy & Construction",
+    "department": "Metallurgical Engineering Department",
+    "isMandatory": true,
+    "qcoOrder": "Steel and Steel Products (Quality Control) Order, 2020",
+    "qcoNotificationDate": "2020-07-22",
+    "enforcingMinistry": "Ministry of Steel",
+    "scope": "Covers requirements for structural steel sections, plates, flats, beams, channels, and angles used in bridges, transmission towers, buildings, and general engineering.",
+    "testingRequirements": [
+      "Tensile strength and Yield strength",
+      "Charpy V-notch Impact test at 0°C / -20°C",
+      "Chemical analysis (Carbon, Manganese, Silicon, Sulphur, Phosphorus, CE value)",
+      "Dimensional tolerance and flatness check"
+    ],
+    "clauses": [
+      { "clauseNo": "6.1", "title": "Chemical Composition", "text": "Carbon equivalent (CE) based on ladle analysis shall not exceed 0.42% for grade E250." },
+      { "clauseNo": "8.2", "title": "Charpy Impact Test", "text": "Impact energy for sub-zero quality grades shall meet minimum 27 Joules at specified temperature." }
+    ],
+    "scheme": "Scheme I - ISI Mark Certification Scheme",
+    "officialUrl": "https://www.bis.gov.in/",
+    "labCapabilities": ["Rourkela Steel Plant Lab", "Jamshedpur Metallurgical Labs", "Central Lab Sahibabad"]
+  }
+]

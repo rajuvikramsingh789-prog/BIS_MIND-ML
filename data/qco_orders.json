@@ -1,0 +1,57 @@
+[
+  {
+    "id": "qco-steel-2020",
+    "orderName": "Steel and Steel Products (Quality Control) Order, 2020",
+    "notificationNumber": "S.O. 2404(E)",
+    "notificationDate": "2020-07-22",
+    "issuingMinistry": "Ministry of Steel",
+    "isMandatory": true,
+    "affectedProducts": ["TMT Rebar (IS 1786)", "Structural Steel (IS 2062)", "Mild Steel Wire", "Steel Sheets"],
+    "summary": "Prohibits manufacture, import, distribution, sale, or storage for sale of specified steel products without displaying the Standard Mark under a license from BIS.",
+    "officialCitationUrl": "https://www.bis.gov.in/product-certification/qco-notifications/"
+  },
+  {
+    "id": "qco-food-2001",
+    "orderName": "Food Safety and Standards (Packaging & Mandatory Certification) Regulations",
+    "notificationNumber": "G.S.R. 201(E)",
+    "notificationDate": "2001-03-29",
+    "issuingMinistry": "Ministry of Health and Family Welfare / FSSAI",
+    "isMandatory": true,
+    "affectedProducts": ["Packaged Drinking Water (IS 14543)", "Packaged Natural Mineral Water (IS 13428)", "Infant Milk Foods (IS 14433)"],
+    "summary": "Mandates that no person shall manufacture, sell, or exhibit for sale packaged drinking water except under a BIS certification mark.",
+    "officialCitationUrl": "https://www.bis.gov.in/product-certification/mandatory-certification/"
+  },
+  {
+    "id": "qco-hallmarking-2020",
+    "orderName": "Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020",
+    "notificationNumber": "S.O. 191(E)",
+    "notificationDate": "2020-01-15",
+    "issuingMinistry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "isMandatory": true,
+    "affectedProducts": ["Gold Jewellery 14K, 18K, 20K, 22K, 23K, 24K (IS 1417 / IS 15820)"],
+    "summary": "Phased compulsory hallmarking of gold jewellery with 6-digit Hallmarking Unique ID (HUID) across designated districts in India.",
+    "officialCitationUrl": "https://www.bis.gov.in/hallmarking-2/huid-overview/"
+  },
+  {
+    "id": "qco-crs-electronics-2012",
+    "orderName": "Electronics and Information Technology Goods (Requirement for Compulsory Registration) Order, 2012",
+    "notificationNumber": "S.O. 2357(E)",
+    "notificationDate": "2012-10-03",
+    "issuingMinistry": "Ministry of Electronics and Information Technology (MeitY)",
+    "isMandatory": true,
+    "affectedProducts": ["Laptops/Notebooks (IS 13252)", "Mobile Handsets (IS 16333)", "Smart Watches", "Power Adapters", "LED TV"],
+    "summary": "Mandates self-declaration of conformity and registration under BIS Compulsory Registration Scheme (CRS) prior to sale or import into India.",
+    "officialCitationUrl": "https://www.crsbis.in/BIS/qco.do"
+  },
+  {
+    "id": "qco-toys-2020",
+    "orderName": "Toys (Quality Control) Order, 2020",
+    "notificationNumber": "S.O. 855(E)",
+    "notificationDate": "2020-02-25",
+    "issuingMinistry": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+    "isMandatory": true,
+    "affectedProducts": ["Electric Toys (IS 15644)", "Non-Electric Toys (IS 9873)"],
+    "summary": "Mandates BIS ISI Mark under Scheme-I for all electric and non-electric toys intended for children below 14 years.",
+    "officialCitationUrl": "https://www.bis.gov.in/product-certification/toys-qco/"
+  }
+]

@@ -1,0 +1,76 @@
+/* Know Your BIS - Dark Mode Theme Overrides */
+[data-theme="dark"] {
+    --bg-main: #0b1329;
+    --bg-card: #131e3a;
+    --bg-header: #0f172a;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --border-color: #1e293b;
+    --primary-color: #38bdf8;
+    --primary-hover: #7dd3fc;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border: 1px solid #334155;
+}
+
+[data-theme="dark"] .hero-search-box {
+    background: #1e293b;
+}
+
+[data-theme="dark"] .hero-search-box input {
+    background: transparent;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .message-bubble.assistant {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border-color: #334155;
+}
+
+[data-theme="dark"] .chat-wrapper {
+    background-color: #131e3a;
+    border-color: #1e293b;
+}
+
+[data-theme="dark"] .chat-sidebar {
+    background-color: #0f172a;
+    border-color: #1e293b;
+}
+
+[data-theme="dark"] .chat-input-area {
+    background-color: #0f172a;
+    border-color: #1e293b;
+}
+
+[data-theme="dark"] .chat-input-area textarea {
+    background-color: #1e293b;
+    color: #ffffff;
+    border-color: #334155;
+}
+
+[data-theme="dark"] .history-item:hover, 
+[data-theme="dark"] .history-item.active {
+    background-color: #1e293b;
+    color: #38bdf8;
+}
+
+[data-theme="dark"] .message-bubble th {
+    background-color: #1e293b;
+    color: #38bdf8;
+}
+
+[data-theme="dark"] .message-bubble td,
+[data-theme="dark"] .message-bubble th {
+    border-color: #334155;
+}
+
+[data-theme="dark"] footer {
+    background-color: #070d1e;
+    border-top: 1px solid #1e293b;
+}

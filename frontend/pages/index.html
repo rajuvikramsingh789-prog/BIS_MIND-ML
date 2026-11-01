@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your BIS - AI-Powered Guide to Indian Standards & Compliance</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/dark-mode.css">
+</head>
+<body>
+
+    <!-- National Accent Bar -->
+    <div class="gov-top-bar"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="/" class="brand-logo">
+                🏛️ Know Your BIS <span class="brand-badge">AI platform</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/assistant">AI Assistant</a></li>
+                <li><a href="/recommend">Know Your BIS</a></li>
+                <li><a href="/services">BIS Services</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle-btn">🌙 Dark Mode</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Bureau of Indian Standards AI Compliance Portal</h1>
+            <p class="tagline">Your AI-powered guide to Indian Standards, BIS Certification, Hallmarking, and Quality Control Orders.</p>
+            
+            <div class="hero-search-box">
+                <input type="text" id="catalog-search-input" placeholder="Search IS numbers (e.g. IS 1786, IS 14543), products, or QCO orders...">
+                <button type="button" onclick="window.location.href='/recommend'">Search Standards</button>
+            </div>
+
+            <div class="quick-questions">
+                <span class="quick-tag" onclick="window.location.href='/assistant?q=Is%20IS%201786%20mandatory%20for%20TMT%20steel%20rebar%3F'">⚡ Is IS 1786 mandatory for TMT steel?</span>
+                <span class="quick-tag" onclick="window.location.href='/assistant?q=What%20are%20the%20testing%20requirements%20for%20Packaged%20Drinking%20Water%20IS%2014543%3F'">⚡ Packaged Water IS 14543 requirements</span>
+                <span class="quick-tag" onclick="window.location.href='/assistant?q=How%20does%20Gold%20Hallmarking%206%20digit%20HUID%20work%3F'">⚡ Gold Hallmarking & HUID</span>
+                <span class="quick-tag" onclick="window.location.href='/recommend?q=I%20manufacture%20electric%20toy%20cars'">⚡ Toy Safety IS 9873 QCO</span>
+            </div>
+        </section>
+
+        <!-- Product Finder Spotlight Section -->
+        <section style="margin-bottom: 3rem;">
+            <div class="card" style="background: linear-gradient(135deg, rgba(13,59,102,0.05) 0%, rgba(244,211,94,0.1) 100%); border-left: 6px solid var(--saffron-accent);">
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1.5rem;">
+                    <div>
+                        <h2 style="font-size: 1.5rem; color: var(--primary-color); margin-bottom: 0.5rem;">🔎 Product-to-Standard AI Recommender</h2>
+                        <p style="color: var(--text-muted); max-width: 650px;">Describe any product in natural language (e.g., "I manufacture stainless steel water bottles" or "Importing LED television adapters") to get instant standard recommendations, mandatory QCO status, and lab testing requirements.</p>
+                    </div>
+                    <a href="/recommend" class="btn btn-secondary" style="font-size: 1rem;">Try Product Finder →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Features Section -->
+        <section style="margin-bottom: 3.5rem;">
+            <h2 class="section-title">✨ Key AI Platform Capabilities</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🤖</div>
+                    <h3 class="card-title">Evidence-Backed RAG Chatbot</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">Ask compliance questions in natural language. Answers are strictly grounded in official BIS documents and cited line-by-line.</p>
+                </div>
+                <div class="card">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">📜</div>
+                    <h3 class="card-title">Mandatory QCO Verification</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">Instantly verify whether a product is covered under a mandatory Quality Control Order (QCO) issued by DPIIT, Ministry of Steel, MeitY, or FSSAI.</p>
+                </div>
+                <div class="card">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔬</div>
+                    <h3 class="card-title">Laboratory & Testing Guidance</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">Explore mandatory chemical, mechanical, and safety testing parameters along with recognized BIS laboratory networks.</p>
+                </div>
+                <div class="card">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">💎</div>
+                    <h3 class="card-title">Gold Hallmarking & HUID</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">Comprehensive guide for jewellers and consumers on 6-digit Hallmarking Unique Identification (HUID) and Assaying centres.</p>
+                </div>
+                <div class="card">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🏭</div>
+                    <h3 class="card-title">Certification Schemes (ISI / CRS)</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">Clear step-by-step licensing pathways for Scheme-I (ISI Mark) and Scheme-II (Compulsory Registration Scheme for Electronics).</p>
+                </div>
+                <div class="card">
+                    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🛡️</div>
+                    <h3 class="card-title">Zero Hallucination Guarantee</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">The RAG pipeline prioritizes retrieved official evidence. Never fabricates IS numbers, clauses, or regulatory requirements.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Standards Catalog Preview & Live Filter -->
+        <section style="margin-bottom: 3.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 1rem;">
+                <h2 class="section-title" style="margin-bottom: 0;">📚 Featured Indian Standards</h2>
+                <div style="display: flex; gap: 0.75rem;">
+                    <select id="category-filter" style="padding: 0.5rem 1rem; border-radius: 6px; border: 1px solid var(--border-color); font-size: 0.9rem; background: var(--bg-card); color: var(--text-main);">
+                        <option value="All">All Categories</option>
+                        <option value="Civil & Structural Steel">Civil & Structural Steel</option>
+                        <option value="Food & Agriculture">Food & Agriculture</option>
+                        <option value="Jewellery & Precious Metals">Jewellery & Precious Metals</option>
+                        <option value="Electronics & IT">Electronics & IT</option>
+                        <option value="Electrical Engineering">Electrical Engineering</option>
+                        <option value="Consumer & Child Safety">Consumer & Child Safety</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="standards-grid" class="grid-2">
+                <!-- Standards cards dynamically rendered by search.js -->
+            </div>
+        </section>
+
+        <!-- Trust Section -->
+        <section class="card" style="background: var(--bg-card); text-align: center; padding: 2.5rem 1.5rem;">
+            <h2 style="font-size: 1.5rem; color: var(--primary-color); margin-bottom: 0.75rem;">🏛️ Built on Official Bureau of Indian Standards Sources</h2>
+            <p style="color: var(--text-muted); max-width: 800px; margin: 0 auto 1.5rem auto;">Information ingested from official portals including bis.gov.in, standardsbis.bsbedge.com, crsbis.in, manakonline.in, and official Gazette Quality Control Order notifications.</p>
+            <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+                <span class="badge badge-voluntary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">✔ Official Gazette QCO Notifications</span>
+                <span class="badge badge-voluntary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">✔ BIS Conformity Assessment 2018</span>
+                <span class="badge badge-voluntary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">✔ NABL Accredited Lab Network Data</span>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Know Your BIS</h4>
+                <p style="font-size: 0.88rem; color: #94a3b8;">AI-powered guide to Indian Standards, BIS Certification, and Regulatory Compliance for the Bureau of Indian Standards Hackathon.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/assistant">AI Assistant</a></li>
+                    <li><a href="/recommend">Know Your BIS (Product Finder)</a></li>
+                    <li><a href="/services">BIS Services</a></li>
+                    <li><a href="/about">About & RAG Architecture</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Official BIS Portals</h4>
+                <ul>
+                    <li><a href="https://www.bis.gov.in/" target="_blank">BIS Main Portal</a></li>
+                    <li><a href="https://standardsbis.bsbedge.com/" target="_blank">Standards Portal</a></li>
+                    <li><a href="https://www.manakonline.in/" target="_blank">Manakonline Licensing</a></li>
+                    <li><a href="https://www.crsbis.in/BIS/" target="_blank">CRS Electronics Registration</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Know Your BIS Platform. Educational & Hackathon Compliance Project. Built with Node.js, Express, SQLite & RAG Engine.</p>
+        </div>
+    </footer>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/search.js"></script>
+</body>
+</html>

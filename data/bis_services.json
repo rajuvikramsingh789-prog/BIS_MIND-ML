@@ -1,0 +1,112 @@
+[
+  {
+    "id": "product-certification",
+    "name": "Product Certification (ISI Mark)",
+    "category": "Conformity Assessment",
+    "description": "The flagship ISI Mark scheme operated under Scheme-I of BIS Conformity Assessment Regulations 2018. Ensures product safety, quality, and reliability through factory audits, sample testing, and continuous surveillance.",
+    "targetAudience": "Domestic manufacturers, Foreign Manufacturers (FMCS), Importers",
+    "keySteps": [
+      "Submit application on Manakonline portal",
+      "Factory audit by BIS inspecting officer",
+      "Drawing samples & testing in BIS/NABL recognized laboratory",
+      "Grant of License (GoL) upon satisfactory test report",
+      "Periodic surveillance and market sample testing"
+    ],
+    "portalUrl": "https://www.manakonline.in/",
+    "isMandatoryAvailable": true
+  },
+  {
+    "id": "hallmarking",
+    "name": "Hallmarking Scheme (Gold & Silver)",
+    "category": "Consumer Protection & Jewellery",
+    "description": "Guarantees official purity and fineness of gold and silver jewellery. Features 6-digit alphanumeric Hallmark Unique Identification (HUID) laser etched at authorized Assaying & Hallmarking Centres (AHC).",
+    "targetAudience": "Jewellers, Assaying & Hallmarking Centres, Consumers",
+    "keySteps": [
+      "Jeweller registration on BIS portal",
+      "Submission of jewellery batch to accredited AHC",
+      "Fire assay testing and XRF non-destructive screening",
+      "Laser engraving of BIS logo, purity grade, and 6-digit HUID code",
+      "Consumer verification via BIS CARE Mobile App"
+    ],
+    "portalUrl": "https://www.bis.gov.in/hallmarking-2/",
+    "isMandatoryAvailable": true
+  },
+  {
+    "id": "laboratory-recognition",
+    "name": "Laboratory Recognition Scheme (LIMS)",
+    "category": "Testing & Calibration",
+    "description": "BIS operates 8 Central/Regional laboratories and recognizes hundreds of independent NABL-accredited commercial and government laboratories under the Laboratory Recognition Scheme (LRS).",
+    "targetAudience": "Testing Laboratories, R&D Institutions, Manufacturers",
+    "keySteps": [
+      "Application via LIMS portal",
+      "Assessment of technical competence & ISO/IEC 17025 accreditation",
+      "On-site audit by BIS technical assessors",
+      "Inter-laboratory proficiency testing (PT)",
+      "Grant of BIS recognition status for specified Indian Standards"
+    ],
+    "portalUrl": "https://www.lims.bis.gov.in/",
+    "isMandatoryAvailable": false
+  },
+  {
+    "id": "compulsory-registration",
+    "name": "Compulsory Registration Scheme (CRS)",
+    "category": "Electronics & IT Goods",
+    "description": "Simplified registration scheme (Scheme-II) for electronics and IT products based on self-declaration of conformity supported by test reports from BIS recognized labs.",
+    "targetAudience": "Electronics Manufacturers, Brand Owners, Importers",
+    "keySteps": [
+      "Test product in BIS recognized lab in India",
+      "Obtain valid test report",
+      "Submit online application on CRS portal with affidavit of conformity",
+      "Grant of Registration (R-number assigned)",
+      "Affix CRS logo with R-Number on product packaging"
+    ],
+    "portalUrl": "https://www.crsbis.in/",
+    "isMandatoryAvailable": true
+  },
+  {
+    "id": "standards-clubs",
+    "name": "BIS Standards Clubs in Schools & Colleges",
+    "category": "Youth & Academic Outreach",
+    "description": "Educational initiative establishing Standards Clubs across high schools and engineering colleges to instill quality consciousness, standard drafting awareness, and consumer rights in students.",
+    "targetAudience": "Schools, Colleges, Teachers, Students",
+    "keySteps": [
+      "Institution registration with BIS Regional Office",
+      "Formation of Student Club with Mentor Teacher",
+      "Organizing industrial exposure visits, quizzes, and competitions",
+      "Financial grant support from BIS for club activities"
+    ],
+    "portalUrl": "https://www.bis.gov.in/standards/standards-clubs/",
+    "isMandatoryAvailable": false
+  },
+  {
+    "id": "training-nits",
+    "name": "National Institute of Training for Standardization (NITS)",
+    "category": "Capacity Building",
+    "description": "NITS Noida provides training programs on standardization, quality management systems (ISO 9001, ISO 14001, ISO 22000), laboratory management, and auditing techniques.",
+    "targetAudience": "Quality Managers, Industry Executives, Lead Auditors",
+    "keySteps": [
+      "Browse course directory on NITS portal",
+      "Select online or classroom training module",
+      "Complete registration & payment",
+      "Attend training and pass evaluation assessment",
+      "Receive BIS NITS Certificate"
+    ],
+    "portalUrl": "https://www.bis.gov.in/nits/",
+    "isMandatoryAvailable": false
+  },
+  {
+    "id": "consumer-affairs",
+    "name": "Consumer Affairs & BIS Care App",
+    "category": "Consumer Redressal",
+    "description": "Enables consumers to verify authenticity of ISI Mark, CRS Registration, and Gold HUID codes, as well as lodge complaints regarding substandard products or misuse of BIS marks.",
+    "targetAudience": "General Citizens, Consumers, Traders",
+    "keySteps": [
+      "Download BIS CARE App from Play Store / App Store",
+      "Enter HUID or ISI License / R-Number",
+      "View instant verification status and manufacturer details",
+      "Lodge complaint with photos/location if non-compliant"
+    ],
+    "portalUrl": "https://www.bis.gov.in/consumer-overview/",
+    "isMandatoryAvailable": false
+  }
+]
